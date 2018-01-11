@@ -2,13 +2,18 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-a:link    {
+a:link {
   text-decoration:  none;
-  color:            white;
+  color:white;
 }
+
+a:hover {
+  color: #d38041 !important;
+}
+
 a:visited {
   text-decoration:  none;
-  color:            #cd5f72ab;
+  color: #cd5f72ab;
 }
 
 * {
@@ -28,14 +33,20 @@ div {
   font-family: 'Shadows Into Light', cursive;
 
 }
+
 h2 {
   margin: 20px;
-  color: #5996bd;
-
+  color: #81bee5;
 }
+
+h3 {
+  margin: 20px;
+  color: #81bee5;
+}
+
 div#container {
   width: 100%;
-  min-height: 750px;
+  min-height: 650px;
 }
 
 div#header {
@@ -69,19 +80,22 @@ nav > div, a {
   align-items: center;
   justify-content: center;
 }
-nav ul a {
+
+/* nav ul a {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
+} */
 
-nav > div {flex: 1; margin-left: 50px;}
+nav > div {
+  flex: 1;
+  margin-left: 50px;
+}
 
 nav > ul {
   flex: 2;
   justify-content: flex-start;
-
 }
 
 nav > ul > li {
@@ -121,19 +135,27 @@ p.landing-tags {
 
 #header-info span {
   display: inline-block;
-  border-top: 3px solid white;
+  border-top: 3px solid #d38041;
   width: 105px;
+}
+
+div#spand span {
+  display: inline-block;
+  border-top: 3px solid #d38041;
+  width: 500px;
+  margin: 50px;
 }
 
 div#header-info {
   margin-left: 50px;
-  color: #5996bd;
+  color: #81bee5;
+  margin-top: -152px;
 }
 
 .header-background-image i.material-icons {
   width: 25px;
   color: #9c5a77;
-  background: white;
+  background: #d38041;
   border-radius: 50%;
   padding: 5px;
   position: absolute;
@@ -147,11 +169,12 @@ div#work {
   width: 100%;
   flex-direction: row;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 60px;
 }
+
 .figure {
   flex: 1;
-  margin: 18px;
+  margin: 20px;
   height: 300px;
 }
 
@@ -160,7 +183,7 @@ div#work {
   position: relative;
   height: 100%;
   z-index: 1;
-  color: white;
+  color: #d38041;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +197,7 @@ div#work {
 #about {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 #about > div:nth-of-type(1) {
@@ -194,7 +217,7 @@ div#user-pic {
 }
 
 #about > div {
-  padding: 30px;
+  padding: 40px;
 }
 
 p.about-title {
@@ -224,22 +247,24 @@ p.about-content {
 div#contact {
   display: flex;
   justify-content: center;
+  background: #cbc8c5;
 }
 
 div#contact > a > i  {
   margin: 15px;
-  padding: 10px;
-  font-size: 3em;
+  padding: 6px;
+  font-size: 2em;
   color: #cd5f72ab;
   cursor: pointer;
 }
 
 footer {
   width: 100%;
-  height: 80px;
+  height: 50px;
   background: #d380413b;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 6px;
+  color: #d38041;
 }
