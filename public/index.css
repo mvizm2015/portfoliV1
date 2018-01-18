@@ -77,7 +77,6 @@ nav {
   flex-direction: row;
   position: fixed;
 }
-
 div#nav-right {
   position: 50%;
 }
@@ -206,6 +205,7 @@ div#work {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  text-align: justify;
 }
 
 #about > div:nth-of-type(1) {
